@@ -36,18 +36,26 @@ The frontend of [eat-commerce](https://github.com/theEmperorofDaiViet/eat-commer
 * [![JavaScript][JavaScript-shield]][JavaScript-url]
 * [![Vue.js][Vue.js-shield]][Vue.js-url]
 * [![Bootstrap][Bootstrap-shield]][Bootstrap-url]
+* [![Stripe][Stripe-shield]][Stripe-url]
+* [![Power BI][Power BI-shield]][Power BI-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Getting Started
 
 ## Prerequisites
+Before cloning and using this application, you'll need to install these things on your computer:
+* [npm](https://docs.npmjs.com/about-npm): the default package manager for the JavaScript runtime environment Node.js. It consists of a command line client, also called npm, and an online database of public and paid-for private packages, called the npm registry. The registry is accessed via the client, and the available packages can be browsed and searched via the npm website.
+* [Vue](https://vuejs.org/): a JavaScript framework for building user interfaces. It builds on top of standard HTML, CSS, and JavaScript and provides a declarative and component-based programming model that helps you efficiently develop user interfaces, be they simple or complex.
+* [Visual Studio Code](https://code.visualstudio.com/download): You can choose any IDE or Text Editor that you want. To build a simple application like this, I recommend <b>Visual Studio Code</b>.
+* [Power BI](https://powerbi.microsoft.com/en-us/): a business analytics service provided by Microsoft that lets you visualize your data and share insights. It converts data from different sources to build interactive dashboards and Business Intelligence reports.
 
 ## Installation
 You can install this application by cloning this repository into your current working directory:
 ```sh
 git clone https://github.com/theEmperorofDaiViet/eat-commerce.ui.git
 ```
+After cloning the repository, you can open the project by Visual Studio Code.
 
 ## Project Setup
 ```
@@ -71,14 +79,43 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Key Features
 
+## Customer
+* Register
+* Log in/Log out
+* Browse products by name or category
+* View product details
+* Add a product to cart
+* Place and pay an order (powered by [*Stripe*](https://stripe.com/))
+* Ratings and comments
+* View purchase history
+* Add a product to bookmark
+
+## Merchant
+* Manage categories
+* Manage products
+* View all orders
+* View statistics and data visualization (by [*Power BI*](https://powerbi.microsoft.com/en-us/))
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Usage
+
+## Customer
+
+<p align="center">
+    <img src="src/assets/customer.gif" width="1050">
+</p>
+
+## Merchant
+
+<p align="center">
+    <img src="src/assets/merchant.gif" width="1050">
+</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,6 +143,10 @@ You can contact me via:
 [Vue.js-url]: https://vuejs.org/
 [Bootstrap-shield]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com/
+[Stripe-shield]: https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=Stripe&logoColor=white
+[Stripe-url]: https://stripe.com/
+[Power BI-shield]: https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black
+[Power BI-url]: https://powerbi.microsoft.com/en-us/
 
 <!-- Contact -->
 [GitHub-shield]: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white
