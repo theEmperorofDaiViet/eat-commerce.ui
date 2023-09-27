@@ -94,6 +94,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 * Ratings and comments
 * View purchase history
 * Add a product to bookmark
+* Chat Plugin (powered by [*Facebook Messenger*](https://www.facebook.com/business/help/1524587524402327))
 
 ## Merchant
 * Manage categories
@@ -104,6 +105,12 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Usage
+
+## Homepage
+
+<p align="center">
+    <img src="src/assets/homepage.png" width="1050">
+</p>
 
 ## Customer
 
